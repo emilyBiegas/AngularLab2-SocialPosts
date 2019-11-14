@@ -1,0 +1,25 @@
+form {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 50%;
+  background-color: #b1ddea;
+  padding: 12px;
+}
+
+.text-input {
+  border-radius: 3px;
+  margin: 6px 0px;
+  box-shadow: none;
+  border: 1px solid #cccccc;
+}
+
+button {
+  margin: 8px 0px;
+  padding: 6px 0px;
+  border-radius: 3px;
+  background-color: white;
+}

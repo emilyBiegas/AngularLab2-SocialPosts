@@ -1,0 +1,23 @@
+<form *ngIf="!hidden" (ngSubmit)="submitPost()" action="" name="newPost">
+  <label for="title">Title</label>
+  <input
+    type="text"
+    name="title"
+    id="title"
+    class="text-input"
+    placeholder="Best Lab Ever"
+    [(ngModel)]="newPost.title"
+  />
+  <label for="thought">Thought</label>
+  <textarea
+    type="text"
+    name="title"
+    id="thought"
+    class="text-input"
+    placeholder="Is this really the best lab ever?"
+    [(ngModel)]="newPost.thought"
+    rows="4"
+    cols="50"
+  ></textarea>
+  <button type="submit">Add Post</button>
+</form>
