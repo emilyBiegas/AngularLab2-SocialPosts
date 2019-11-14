@@ -8,6 +8,9 @@ form {
   width: 50%;
   background-color: #b1ddea;
   padding: 12px;
+  position: absolute;
+  top: 160px;
+  left: 160px;
 }
 
 .text-input {
@@ -15,6 +18,7 @@ form {
   margin: 6px 0px;
   box-shadow: none;
   border: 1px solid #cccccc;
+  padding: 4px;
 }
 
 button {

@@ -13,6 +13,7 @@ export class PostComponent implements OnInit {
 
   @Output()
   deleted = new EventEmitter<number>();
+
   constructor() {}
 
   deletePost() {

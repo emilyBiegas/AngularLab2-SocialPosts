@@ -14,16 +14,15 @@ export class PostFormComponent implements OnInit {
     title: "",
     thought: ""
   };
-  hidden: boolean = false;
 
   constructor() {}
 
-  unhideForm() {
-    this.hidden = !this.hidden;
-  }
-
   submitPost() {
     this.submitted.emit(this.newPost);
+    this.newPost = {
+      title: "",
+      thought: ""
+    };
   }
 
   ngOnInit() {}
